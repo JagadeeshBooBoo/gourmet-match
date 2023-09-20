@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef53d3f0571040e08bf2ee5661518c6, type: 3}
+  m_Name: Level_1
+  m_EditorClassIdentifier: 
+  levelInfos:
+  - totalElement: 3
+    time: 300
+    levelNumber: 1
+    progressbarTime: 5
+    objectScale: 3
+    items: {fileID: 11400000, guid: 432d7d468c78b4e98b443518b5efcb09, type: 2}
+  - totalElement: 5
+    time: 300
+    levelNumber: 1
+    progressbarTime: 5
+    objectScale: 3
+    items: {fileID: 11400000, guid: bb02123dd14b445dea795ac15bdd2095, type: 2}
+  - totalElement: 5
+    time: 300
+    levelNumber: 3
+    progressbarTime: 5
+    objectScale: 2
+    items: {fileID: 11400000, guid: 166eb77966bbd4eebb36106272834263, type: 2}
+  - totalElement: 5
+    time: 300
+    levelNumber: 3
+    progressbarTime: 5
+    objectScale: 2
+    items: {fileID: 11400000, guid: 586f177a3ebbc47e88e420d489bcb571, type: 2}
+  gameItemsPrefab: {fileID: 11400000, guid: 7f0f25d0f522341cbab4358a14de4ac8, type: 2}

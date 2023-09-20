@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: df4ba3f83ac9c48ab83ef354fa28357f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: 3
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Credit Card
+  fontNames:
+  - Credit Card
+  fallbackFontReferences: []
+  customCharacters: 0123456789:-
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

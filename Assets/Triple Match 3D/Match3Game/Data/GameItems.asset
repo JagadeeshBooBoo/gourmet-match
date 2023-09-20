@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9de95393e1424653a9cadfb6c7688f9, type: 3}
+  m_Name: GameItems
+  m_EditorClassIdentifier: 
+  itemsPrefab:
+  - {fileID: 404810343, guid: f769c803f13e6426c8b86bf0b6f4f162, type: 3}
+  - {fileID: 8156994568683952905, guid: 4b2604c1db1924870b2432b0bb0cc430, type: 3}
+  specialItemCollection:
+  - targetItemPrefab: {fileID: 3846049693098775028, guid: 1f4aa7696d389476b9fae37e3531eb55,
+      type: 3}
+    targetCount: 9
+    targetItemSprite: {fileID: 21300000, guid: 11c7042759c2949739f2530ef67de262, type: 3}
+  - targetItemPrefab: {fileID: 8393043592755653472, guid: 46693437d2b72475bbe041044dfde6e1,
+      type: 3}
+    targetCount: 9
+    targetItemSprite: {fileID: 21300000, guid: 11c7042759c2949739f2530ef67de262, type: 3}

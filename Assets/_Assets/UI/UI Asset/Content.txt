@@ -1,0 +1,5 @@
+Level completed color : ffe13d
+
+Score value color : 73f416
+
+Next text color : 000000 / alpha 50%
