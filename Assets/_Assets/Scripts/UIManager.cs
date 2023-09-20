@@ -35,6 +35,7 @@ public class UIManager : MonoBehaviour
             PlayerPrefs.SetInt("LevelIndex", 0);
 
         PlayerPrefs.SetInt("LevelIndex", PlayerPrefs.GetInt("LevelIndex") + 1);
+        PlayerPrefs.SetInt("MainLevelIndex", PlayerPrefs.GetInt("MainLevelIndex") + 1);
 
         SceneManager.LoadScene(_currentScene);
     }
@@ -47,11 +48,13 @@ public class UIManager : MonoBehaviour
     public void LevelCompleted()
     {
         _levelCompleted.SetActive(true);
+        GAEventManager.LogLevelEndEvent(PlayerPrefs.GetInt("MainLevelIndex") + 1);
     }
 
     public void LevelFailed()
     {
         _levelFailed.SetActive(true);
+        GAEventManager.LogLevelFailEvent(PlayerPrefs.GetInt("MainLevelIndex") + 1);
     }
 
     public void Restart()

@@ -180,7 +180,7 @@ public class RoboticArm : MonoBehaviour
         //ChangePhysicPorperstiesOfGrabbedObject(grabObjRb);
         grabbableObject.GetComponent<PickableItem>().isDropped = true;
 
-        PlatesManager.instace.TweenMovePlate();
+        //PlatesManager.instace.TweenMovePlate();
     }
 
     private IEnumerator ChangePickUpStateBackToIdle(int close)

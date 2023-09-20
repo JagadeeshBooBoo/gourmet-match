@@ -51,8 +51,8 @@ public class PlatesManager : MonoBehaviour
 
         Transform plate = plates[nextPlateIndex].transform;
         plate.gameObject.SetActive(true);
-        plate.localPosition = new Vector3(0f, plate.transform.localPosition.y, 0f);
-        plate.DOLocalMoveX(-4.88f, 0.5f).SetDelay(2f).SetEase(Ease.OutBack);
+        plate.localPosition = new Vector3(2f, plate.transform.localPosition.y, 0f);
+        plate.DOLocalMoveX(-4.88f, 0.65f).SetDelay(2f).SetEase(Ease.OutBack);
 
         nextPlateIndex++;
     }
@@ -64,6 +64,6 @@ public class PlatesManager : MonoBehaviour
 
         Transform plate = plates[nextPlateIndex - 1].transform;
         plate.GetComponent<MeshCollider>().enabled = false;
-        plate.DOLocalMoveX(0f, 0.5f).SetDelay(1f).SetEase(Ease.InBack);
+        plate.DOLocalMoveX(2f, 0.65f).SetDelay(1f).SetEase(Ease.InBack);
     }
 }

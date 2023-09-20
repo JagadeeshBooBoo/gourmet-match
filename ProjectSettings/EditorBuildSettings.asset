@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_Assets/Scenes/FuncellSDK.unity
+    guid: 5affced86bd6f574e89f36ffffcd911f
+  - enabled: 1
     path: Assets/_Assets/Scenes/GamePlay.unity
     guid: 5f7bea04a9c0e4d4b9cedf80ea6ca1cb
   m_configObjects: {}

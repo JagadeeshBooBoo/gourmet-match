@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 3155847119599919943}
   - component: {fileID: 3502511139450294382}
   m_Layer: 6
-  m_Name: Sider_Base (3)
+  m_Name: Sider_Base_Orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -116,7 +116,7 @@ Transform:
   m_Children:
   - {fileID: 3768580044570690194}
   m_Father: {fileID: 2639661575334371289}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3155847119599919943
 MeshFilter:
@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 8692624490452937497}
   - component: {fileID: 927841944745751310}
   m_Layer: 6
-  m_Name: Sider_Base (1)
+  m_Name: Sider_Base_Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -359,7 +359,7 @@ Transform:
   m_Children:
   - {fileID: 127052717730430387}
   m_Father: {fileID: 2639661575334371289}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8692624490452937497
 MeshFilter:
@@ -528,7 +528,7 @@ Transform:
   m_Children:
   - {fileID: 1721395046913461035}
   m_Father: {fileID: 2639661575334371289}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2508805105451858684
 MeshFilter:
@@ -676,7 +676,7 @@ GameObject:
   - component: {fileID: 5960378614210941594}
   - component: {fileID: 2964104366735497159}
   m_Layer: 6
-  m_Name: Sider_Base (2)
+  m_Name: Sider_Base_Pink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -696,7 +696,7 @@ Transform:
   m_Children:
   - {fileID: 8045018421875658173}
   m_Father: {fileID: 2639661575334371289}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5960378614210941594
 MeshFilter:
@@ -887,6 +887,10 @@ PrefabInstance:
     - target: {fileID: -8582931715211691986, guid: 5011d843db9cf1d49809a423781d9c6a, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -6436868461831027449, guid: 5011d843db9cf1d49809a423781d9c6a, type: 3}
+      propertyPath: m_Name
+      value: Sider_Base_Green
       objectReference: {fileID: 0}
     - target: {fileID: -6436868461831027449, guid: 5011d843db9cf1d49809a423781d9c6a, type: 3}
       propertyPath: m_Layer

@@ -21,6 +21,10 @@ public class LevelManager : MonoBehaviour
     {
         instance = this;
 
+        GAEventManager.Init();
+        GAEventManager.LogLevelStartEvent(PlayerPrefs.GetInt("MainLevelIndex") + 1);
+        Debug.Log("Main Level : " + PlayerPrefs.GetInt("MainLevelIndex") + 1);
+
         if (PlayerPrefs.GetInt("LevelIndex") == 0)
             PlayerPrefs.SetInt("LevelIndex", 1);
 
@@ -41,7 +45,7 @@ public class LevelManager : MonoBehaviour
 
     public void Confetti()
     {
-        GameObject effect = Instantiate(_confetti);
+        GameObject effect = Instantiate(_confetti, transform.position, Quaternion.identity);
     }
 
     private void TweenMainPlate()
